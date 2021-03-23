@@ -1,1 +1,5 @@
-# ABondowoso_Web_E41190321_NuricoVicyyanto
+# Workshop web Framework
+- Nama : Nurico Vicyyanto
+- NIM : E41190321
+- Gol : A Bondowoso
+- Semester : 4
