@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ManagementUserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,4 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('user', 'ManagementUserControler');
+Route::resource('user', 'App\Http\Controllers\ManagementUserController');
+
+Route::get("/home", function() {
+    return view("home");
+});
