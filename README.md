@@ -5,4 +5,4 @@
 - Semester : 4
 
 #Tugas
-tugas minggu 3 : menginstall laravel
+tugas minggu ke 3 tugas 1-4 selesai
