@@ -20,7 +20,7 @@ class EnsureUserRoleIsAllowedToAccess
      */
     public function handle(Request $request, Closure $next)
     {
-        echo 'the middleeare access.</br>';
+        echo 'akses middleeware</br>';
 
         $userRole = auth()->user()->role;
         $currentRouteName = Route::currentRouteName();
